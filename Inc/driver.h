@@ -180,6 +180,10 @@
   #include "boards/stm32f407vet6_dev_board.h"
 #elif defined(BOARD_MY_MACHINE)
   #include "boards/my_machine_map.h"
+#elif defined(BOARD_JAYTEK_CNC)
+  #include "boards/jaytek_cnc_map.h"
+#elif defined(BOARD_JAYTEK_OPENPNP)
+  #include "boards/jaytek_openpnp_map.h"
 #else // default board
   #include "boards/generic_map.h"
 #endif
@@ -301,9 +305,12 @@
 #endif
 
 #if defined(AUXOUTPUT0_PWM_PORT) || defined(AUXOUTPUT1_PWM_PORT) ||\
-     defined(AUXOUTPUT0_ANALOG_PORT) || defined(AUXOUTPUT1_ANALOG_PORT) ||\
-      defined(AUXINPUT0_ANALOG_PORT) || defined(AUXINPUT1_ANALOG_PORT) ||\
-       defined(MCP3221_ENABLE)
+  defined(AUXOUTPUT0_ANALOG_PORT) || defined(AUXOUTPUT1_ANALOG_PORT) ||\
+    defined(AUXINPUT0_ANALOG_PORT) || defined(AUXINPUT1_ANALOG_PORT) ||\
+      defined(AUXINPUT2_ANALOG_PORT) || defined(AUXINPUT3_ANALOG_PORT) ||\
+        defined(AUXINPUT4_ANALOG_PORT) || defined(AUXINPUT5_ANALOG_PORT) ||\
+          defined(AUXINPUT6_ANALOG_PORT) || defined(AUXINPUT7_ANALOG_PORT) ||\
+            defined(MCP3221_ENABLE)
 #define AUX_ANALOG 1
 #else
 #define AUX_ANALOG 0

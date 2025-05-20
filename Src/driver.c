@@ -314,7 +314,25 @@ static input_signal_t inputpin[] = {
     { .id = Input_Analog_Aux0,    .port = AUXINPUT0_ANALOG_PORT, .pin = AUXINPUT0_ANALOG_PIN, .group = PinGroup_AuxInputAnalog },
 #endif
 #ifdef AUXINPUT1_ANALOG_PIN
-    { .id = Input_Analog_Aux1,    .port = AUXINPUT1_ANALOG_PORT, .pin = AUXINPUT1_ANALOG_PIN, .group = PinGroup_AuxInputAnalog }
+    { .id = Input_Analog_Aux1,    .port = AUXINPUT1_ANALOG_PORT, .pin = AUXINPUT1_ANALOG_PIN, .group = PinGroup_AuxInputAnalog },
+#endif
+#ifdef AUXINPUT2_ANALOG_PIN
+    { .id = Input_Analog_Aux2,    .port = AUXINPUT2_ANALOG_PORT, .pin = AUXINPUT2_ANALOG_PIN, .group = PinGroup_AuxInputAnalog },
+#endif
+#ifdef AUXINPUT3_ANALOG_PIN
+    { .id = Input_Analog_Aux3,    .port = AUXINPUT3_ANALOG_PORT, .pin = AUXINPUT3_ANALOG_PIN, .group = PinGroup_AuxInputAnalog },
+#endif
+#ifdef AUXINPUT4_ANALOG_PIN
+    { .id = Input_Analog_Aux4,    .port = AUXINPUT4_ANALOG_PORT, .pin = AUXINPUT4_ANALOG_PIN, .group = PinGroup_AuxInputAnalog },
+#endif
+#ifdef AUXINPUT5_ANALOG_PIN
+    { .id = Input_Analog_Aux5,    .port = AUXINPUT5_ANALOG_PORT, .pin = AUXINPUT5_ANALOG_PIN, .group = PinGroup_AuxInputAnalog },
+#endif
+#ifdef AUXINPUT6_ANALOG_PIN
+    { .id = Input_Analog_Aux6,    .port = AUXINPUT6_ANALOG_PORT, .pin = AUXINPUT6_ANALOG_PIN, .group = PinGroup_AuxInputAnalog },
+#endif
+#ifdef AUXINPUT7_ANALOG_PIN
+    { .id = Input_Analog_Aux7,    .port = AUXINPUT7_ANALOG_PORT, .pin = AUXINPUT7_ANALOG_PIN, .group = PinGroup_AuxInputAnalog },
 #endif
 };
 

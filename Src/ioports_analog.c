@@ -21,7 +21,7 @@
 
 #include "driver.h"
 
-#if AUX_ANALOG
+#ifdef AUX_ANALOG
 
 #ifdef AUXOUTPUT0_PWM_PORT
 #define PWM_OUT0 1
@@ -54,6 +54,10 @@ static const adc_map_t adc_map[] = {
     { GPIOA,  1, 123, ADC1, ADC_CHANNEL_1 },
     { GPIOA,  2, 123, ADC1, ADC_CHANNEL_2 },
     { GPIOA,  3, 123, ADC1, ADC_CHANNEL_3 },
+    { GPIOA,  4, 123, ADC1, ADC_CHANNEL_4 },
+    { GPIOA,  5, 123, ADC1, ADC_CHANNEL_5 },
+    { GPIOA,  6, 123, ADC1, ADC_CHANNEL_6 },
+    { GPIOA,  7, 123, ADC1, ADC_CHANNEL_7 },
 #ifdef ADC2
     { GPIOA,  4,  12, ADC2, ADC_CHANNEL_4 },
     { GPIOA,  5,  12, ADC2, ADC_CHANNEL_5 },

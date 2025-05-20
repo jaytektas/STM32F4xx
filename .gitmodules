@@ -52,3 +52,6 @@
 [submodule "openpnp"]
 	path = openpnp
 	url = https://github.com/grblHAL/Plugin_OpenPNP/
+[submodule "jaytek"]
+	path = jaytek
+	url = https://github.com/jaytektas/Plugin_jaytek
