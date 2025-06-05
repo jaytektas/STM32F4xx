@@ -12,22 +12,22 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "/home/jay/workspace/STM32F4xx/.pio/build/jaytek_openpnp/firmware.elf",
-            "projectEnvName": "jaytek_openpnp",
+            "executable": "/home/jay/workspace/STM32F4xx/.pio/build/jaytek_cnc_rev2/firmware.elf",
+            "projectEnvName": "jaytek_cnc_rev2",
             "toolchainBinDir": "/home/jay/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "svdPath": "/home/jay/.platformio/platforms/ststm32/misc/svd/STM32F40x.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
-                "task": "Pre-Debug"
+                "task": "Pre-Debug (jaytek_cnc_rev2)"
             }
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/jay/workspace/STM32F4xx/.pio/build/jaytek_openpnp/firmware.elf",
-            "projectEnvName": "jaytek_openpnp",
+            "executable": "/home/jay/workspace/STM32F4xx/.pio/build/jaytek_cnc_rev2/firmware.elf",
+            "projectEnvName": "jaytek_cnc_rev2",
             "toolchainBinDir": "/home/jay/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "svdPath": "/home/jay/.platformio/platforms/ststm32/misc/svd/STM32F40x.svd"
@@ -36,8 +36,8 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "/home/jay/workspace/STM32F4xx/.pio/build/jaytek_openpnp/firmware.elf",
-            "projectEnvName": "jaytek_openpnp",
+            "executable": "/home/jay/workspace/STM32F4xx/.pio/build/jaytek_cnc_rev2/firmware.elf",
+            "projectEnvName": "jaytek_cnc_rev2",
             "toolchainBinDir": "/home/jay/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "svdPath": "/home/jay/.platformio/platforms/ststm32/misc/svd/STM32F40x.svd",

@@ -182,6 +182,8 @@
   #include "boards/my_machine_map.h"
 #elif defined(BOARD_JAYTEK_CNC)
   #include "boards/jaytek_cnc_map.h"
+#elif defined(BOARD_JAYTEK_CNC_REV2)
+  #include "boards/jaytek_cnc_rev2_map.h"
 #elif defined(BOARD_JAYTEK_OPENPNP)
   #include "boards/jaytek_openpnp_map.h"
 #else // default board
